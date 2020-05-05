@@ -1,5 +1,5 @@
 # ScreenShot2Speech for macOS
-## Version 0.1 (for macOS 10.15 Catalina)
+## Version 0.2 (for macOS 10.15 Catalina)
 ### by Shyamal Suhana Chandra, shyamalc@gmail.com
 
 -----------
