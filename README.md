@@ -1,5 +1,5 @@
 # ScreenShot2Speech for macOS
-## Version 0.1 (for macOS 10.13+ High Sierra)
+## Version 0.1 (for macOS 10.15 Catalina)
 ### by Shyamal Suhana Chandra, shyamalc@gmail.com
 
 -----------
@@ -22,3 +22,5 @@ Also, do a `chmod +x screenshot2speech.sh` before running.
 `./screenshot2speech.sh <Words per minute (e.g. 200)> <Voice Name on MacOS (e.g. Samantha)>`
 
 -----------
+
+**Final Step:** Go to **System Preferences** -> **Security & Privacy** -> **Privacy** -> **Screen Recording** -> Add the **Terminal** with the checkbox on.
