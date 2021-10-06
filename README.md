@@ -1,5 +1,5 @@
 # ScreenShot2Speech for macOS
-## Version 0.3 (for macOS 11.5.7 Big Sur)
+## Version 0.3 (for macOS 11.6 Big Sur)
 ### by Shyamal Suhana Chandra, shyamalc@gmail.com
 
 -----------
