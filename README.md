@@ -11,6 +11,7 @@
 
 **Prequisites:** 
 
+0. Install [pip](https://pip.pypa.io/en/stable/installation/).
 1. Please install Homebrew with the following command: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`.
 2. Please do a `brew install tesseract`.
 3. Please do a `brew install pkg-config poppler`.
