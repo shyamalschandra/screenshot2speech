@@ -17,7 +17,7 @@
 3. Please do a `brew install pkg-config poppler`.
 4. Please do a `pip3 install numpy`
 5. Run the following commands in this [comment](https://github.com/mozilla/TTS/issues/726#issuecomment-913570903).
-6. Please do a `sudo pip install --user TTS`.
+6. Please do a `sudo pip3 install --user TTS`.
 7. Please do a `brew install mplayer`.
 8. Download the screenshot2speech: `git clone https://github.com/shyamalschandra/screenshot2speech`
 9. Go to **System Preferences** -> **Security & Privacy** -> **Privacy** -> **Screen Recording** -> Add the **Terminal** with the checkbox on.
