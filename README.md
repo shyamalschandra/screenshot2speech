@@ -23,4 +23,5 @@ Also, do a `chmod +x screenshot2speech.sh` before running.
 **Example command:**
 
 `./screenshot2speech.sh`
+
 **Note:** All the files will be placed in the `Downloads` directory.  Please allow the Terminal to access the Downloads folder when asked by MacOS.
