@@ -8,20 +8,42 @@
 
 -----------
 
+## Install with Homebrew (recommended)
 
-**Prequisites:** 
+```bash
+brew tap shyamalschandra/ScreenShot2Speech
+brew install screenshot2speech
+```
 
-0. Install [pip](https://pip.pypa.io/en/stable/installation/).
-1. Please install Homebrew with the following command: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`.
-2. Please do a `brew install tesseract`.
-3. Please do a `brew install mplayer`.
-4. Download the screenshot2speech: `git clone https://github.com/shyamalschandra/screenshot2speech`
-5. Go to **System Preferences** -> **Security & Privacy** -> **Privacy** -> **Screen Recording** -> Add the **Terminal** with the checkbox on.
+This installs the `screenshot2speech` command and its dependencies (`tesseract` and `mplayer`).
 
-Also, do a `chmod +x screenshot2speech.sh` before running.
+After installation, grant these macOS permissions once:
 
-**Example command:**
+1. **Screen Recording:** System Settings → Privacy & Security → Screen Recording → enable your terminal app (Terminal, iTerm, etc.).
+2. **Downloads folder:** allow access when macOS prompts you. All output files are saved to `~/Downloads`.
 
-`./screenshot2speech.sh`
+## Manual install
 
-**Note:** All the files will be placed in the `Downloads` directory.  Please allow the Terminal to access the Downloads folder when asked by MacOS.
+**Prerequisites:**
+
+1. Install [Homebrew](https://brew.sh/).
+2. `brew install tesseract`
+3. `brew install mplayer`
+4. Clone this repo: `git clone https://github.com/shyamalschandra/screenshot2speech`
+5. Grant **Screen Recording** permission to your terminal in System Settings → Privacy & Security → Screen Recording.
+
+Also run `chmod +x screenshot2speech.sh` before using the script directly.
+
+## Usage
+
+```bash
+screenshot2speech
+```
+
+Or, if installed manually from a clone:
+
+```bash
+./screenshot2speech.sh
+```
+
+**Note:** All files are placed in the `~/Downloads` directory.
