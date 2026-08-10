@@ -3,7 +3,7 @@ class Screenshot2speech < Formula
   homepage "https://github.com/shyamalschandra/screenshot2speech"
   url "https://github.com/shyamalschandra/screenshot2speech/archive/refs/heads/master.tar.gz"
   version "0.4"
-  sha256 "f76e9a3a1c6f4616fb06d7bd86041508e64dbeb4e875b2fb44b05a2669fffe43"
+  sha256 "6064a03e0f215c0b2172852772250208cf7c77e8ff00f7e72b7fab7915081449"
   license "MIT"
 
   depends_on "mplayer"
