@@ -3,7 +3,7 @@ class Screenshot2speech < Formula
   homepage "https://github.com/shyamalschandra/screenshot2speech"
   url "https://github.com/shyamalschandra/screenshot2speech/archive/refs/heads/master.tar.gz"
   version "0.5"
-  sha256 "UPDATE_THIS_WITH_NEW_SHA256"
+  sha256 "8857ee97de6e7e3d0e73776d1f5e296320f5e934df9da49bdd81a7766fbf9f3e"
   license "MIT"
 
   depends_on "mplayer"
@@ -13,7 +13,7 @@ class Screenshot2speech < Formula
 
   resource "build_script" do
     url "file://#{File.expand_path(__FILE__).sub(/screenshot2speech\.rb$/, '')}/build_encrypted.sh"
-    sha256 "UPDATE_THIS_WITH_BUILD_SCRIPT_SHA256"
+    sha256 "47510c396461a6bb10bc7fa153807e3f8865c87d0ef81d02bb9c05a3e5ed199d"
   end
 
   def install
